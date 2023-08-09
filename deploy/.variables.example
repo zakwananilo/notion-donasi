@@ -1,5 +1,0 @@
-NODE_ENV=development
-IMAGE_NAME=kgn
-IMAGE_TAG=galang-perjuangan-web
-CONTAINER_NAME=galang-perjuangan-web
-PROJECT_SOURCE_PATH=/home/anilo/src/kgn_galang_perjuangan_web
