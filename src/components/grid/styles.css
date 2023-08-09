@@ -1,0 +1,9 @@
+.row {
+  @apply flex;
+  @apply flex-row;
+}
+
+.column {
+  @apply flex;
+  @apply flex-col;
+}

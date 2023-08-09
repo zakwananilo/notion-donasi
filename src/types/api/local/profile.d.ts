@@ -1,0 +1,3 @@
+interface LocalEditProfileRequest {
+  file: File;
+}

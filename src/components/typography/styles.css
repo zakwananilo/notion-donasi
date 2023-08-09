@@ -1,0 +1,31 @@
+.text-extra-small {
+  @apply text-[10px];
+}
+
+.text-small {
+  @apply text-[12px];
+}
+
+.text-medium {
+  @apply text-[14px];
+}
+
+.text-large {
+  @apply text-[16px];
+}
+
+.text-extra-large {
+  @apply text-[18px];
+}
+
+.text-very-extra-large {
+  @apply text-[20px];
+}
+
+.text-primary {
+  @apply text-[#990000];
+}
+
+.text-secondary {
+  @apply text-[#B1B1B1];
+}

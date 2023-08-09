@@ -1,0 +1,24 @@
+table.table {
+  @apply border-collapse;
+  @apply border-[1px];
+  @apply border-solid;
+  @apply border-[#DDDDDD];
+}
+
+table.table tr {
+  overflow-x: scroll;
+}
+
+table.table th, table.table td {
+  @apply border-[1px];
+  @apply border-solid;
+  @apply border-[#DDDDDD];
+  @apply px-[24px];
+  @apply py-[15px];
+  @apply text-black;
+  @apply text-[12px];
+  @apply text-center;
+  @apply font-normal;
+  @apply font-[500];
+  @apply leading-normal;
+}

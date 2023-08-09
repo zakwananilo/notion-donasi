@@ -1,0 +1,42 @@
+.button {
+  @apply rounded-[4px];
+  @apply py-[10px];
+  @apply px-[10px];
+  @apply text-[12px];
+  @apply leading-normal;
+}
+
+.button.button-small {
+  @apply min-w-[91px];
+  @apply font-[400];
+}
+
+.button.button-medium {
+  @apply min-w-[168px];
+  @apply font-[600];
+}
+
+.button.button-large {
+  @apply min-w-[244px];
+  @apply font-[600];
+}
+
+.button.button-primary {
+  @apply bg-[#9A0001];
+  @apply text-white;
+}
+
+.button.button-secondary {
+  @apply bg-[#EFEFEF];
+  @apply text-black;
+}
+
+.button.button-white {
+  @apply bg-white;
+  @apply text-black;
+}
+
+.button.button-blue {
+  @apply bg-[#0085FF];
+  @apply text-white;
+}
