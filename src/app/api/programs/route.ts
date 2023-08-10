@@ -1,7 +1,7 @@
 import { Response } from '@/libs/api/local/Response';
 import { getPrograms } from '@/libs/api/notion/NotionClient';
  
-export async function GET() {
+export async function POST() {
   try {
     const programs = await getPrograms();
 
